@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { HeroParallaxDemo } from "./components/HeroParallaxDemo";
 import { AppleCardsCarouselDemo } from "./components/AppleCarouselDemo";
 import Transformando from "./components/transformando";

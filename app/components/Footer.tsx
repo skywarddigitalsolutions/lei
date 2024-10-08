@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import { FaFacebookF, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { SiTiktok } from "react-icons/si";
 import { motion } from 'framer-motion';
 
