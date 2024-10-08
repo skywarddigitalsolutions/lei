@@ -26,7 +26,7 @@ export const FloatingNav = ({
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     if (typeof current === "number") {
-      let direction = current! - scrollYProgress.getPrevious()!;
+      const direction = current! - scrollYProgress.getPrevious()!; // Cambiado a const
 
       // Mostrar el navbar después del 5% de scroll
       if (scrollYProgress.get() < 0.05) {
@@ -66,12 +66,12 @@ export const FloatingNav = ({
             className
           )}
         >
-          {navItems.map((navItem: any, idx: number) => (
+          {navItems.map((navItem, idx: number) => (
             <Link
               key={`link=${idx}`}
               href={navItem.link}
               className={cn(
-                "relative items-center flex text-xs lg:text-lg text-yellow-100 hover:text-neutral-300 font-bold" 
+                "relative items-center flex text-xs lg:text-lg text-yellow-100 hover:text-neutral-300 font-bold"
               )}
             >
               <span className="block">{navItem.name}</span>
