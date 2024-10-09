@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "./ui/apple-cards-carousel";
 import Link from "next/link";
@@ -27,23 +26,7 @@ export function AppleCardsCarouselDemo() {
   );
 }
 
-const DummyContent = () => {
-  return (
-    <>
-      
-          <Link href={"/Proyectos"}>
-             <div className="z-10 flex min-h-64 items-center justify-center">
-      <ShimmerButton className="shadow-2xl">
-        <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-gris dark:from-white dark:to-slate-900/10 lg:text-lg">
-          Ver todas las fotos
-        </span>
-      </ShimmerButton>
-    </div>
-          </Link>
-      
-    </>
-  );
-};
+
 const data = [
   {
     category: "Diseño",
