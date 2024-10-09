@@ -43,7 +43,6 @@ export default function Contacto() {
                     />
                 </div>
 
-                {/* Contenido central */}
                 <div className="w-full md:w-1/3 lg:w-auto flex flex-col items-center text-center space-y-6 px-4">
                     <div className="flex flex-col space-y-4 w-full px-8">
                         <Link
@@ -67,12 +66,11 @@ export default function Contacto() {
                             className="flex items-center justify-center bg-yellow-200 text-gray-800 font-semibold rounded-lg py-3 px-2 w-full transition duration-300 hover:bg-yellow-300 shadow-lg"
                         >
                             <FaBehance className="mr-2" />
-                            Ver mi Behance
+                           Behance
                         </Link>
                     </div>
                 </div>
 
-                {/* Imagen derecha */}
                 <div className="w-full md:w-1/3 lg:w-1/3 p-4 flex justify-center">
                     <Image
                         src="/fotocontacto2.jpg"
