@@ -74,7 +74,7 @@ export default function Contacto() {
                 <div className="w-full md:w-1/3 lg:w-1/3 p-4 flex justify-center">
                     <Image
                         src="/fotocontacto2.jpg"
-                        alt="Proyecto de moda"
+                        alt="Proyecto de moda 2"
                         width={400}
                         height={500}
                         className="w-full h-auto rounded-lg shadow-lg object-cover"
