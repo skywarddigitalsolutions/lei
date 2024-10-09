@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: "Leila Abalos",
   description: "Diseño y Gestión de Moda",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 const inter = Inter({ subsets: ["latin"] });
@@ -26,7 +26,7 @@ export default function RootLayout({
             <meta property="og:type" content="website" />
             <meta property="og:locale" content="es_ES" />
             <link rel="canonical" href="https://sds.com.ar" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.png" />
           </head>
             <body className={inter.className}>{children}</body>
     </html>
