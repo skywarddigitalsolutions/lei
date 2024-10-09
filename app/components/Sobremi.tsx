@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Sobremi() {
     return (
         <>
-            <div className="py-24 flex flex-col lg:flex-row bg-gris px-4 lg:px-20 gap-12  justify-center">
+            <div className="py-24 flex flex-col lg:flex-row bg-gris px-4 lg:px-20 gap-12 justify-center items-center">
                 <Image 
                     src="/lei.webp" 
                     alt="Leila" 

@@ -28,7 +28,7 @@ const images = [
   { src: '/travis5.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
   { src: '/travis6.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
   { src: '/travis7.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/travis8.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/travis8.webp', alt: 'travis 5', className: 'md:col-span-1 md:row-span-2' },
 ];
 
 export default function Travis() {
