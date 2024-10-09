@@ -21,10 +21,10 @@ const productionOptions = [
 ];
 
 const images = [
-  { src: '/bastard.png', alt: 'bastard 1', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/bastard2.png', alt: 'bastard 2', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/bastard3.jpg', alt: 'bastard 3', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/bastard4.jpg', alt: 'bastard 4', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/bastard.webp', alt: 'bastard 1', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/bastard2.webp', alt: 'bastard 2', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/bastard3.webp', alt: 'bastard 3', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/bastard4.webp', alt: 'bastard 4', className: 'md:col-span-1 md:row-span-2' },
 
 ];
 

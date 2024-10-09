@@ -21,12 +21,12 @@ const productionOptions = [
 ];
 
 const images = [
-  { src: '/zwarp.jpeg', alt: 'Zwarp 1', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/zwarp2.jpeg', alt: 'Zwarp 2', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/zwarp3.jpeg', alt: 'Zwarp 3', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/zwarp4.jpeg', alt: 'Zwarp 4', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/zwarp5.jpeg', alt: 'Zwarp 5', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/zwarp6.png', alt: 'Zwarp 6', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/zwarp.webp', alt: 'Zwarp 1', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/zwarp2.webp', alt: 'Zwarp 2', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/zwarp3.webp', alt: 'Zwarp 3', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/zwarp4.webp', alt: 'Zwarp 4', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/zwarp5.webp', alt: 'Zwarp 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/zwarp6.webp', alt: 'Zwarp 6', className: 'md:col-span-2 md:row-span-3' },
 ];
 
 export default function Zwarp() {

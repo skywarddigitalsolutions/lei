@@ -10,6 +10,8 @@ import {
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Image, { ImageProps } from "next/image";
+import { useState } from "react";
+
 
 interface CarouselProps {
   items: JSX.Element[];
@@ -177,18 +179,32 @@ export const Card = ({
 };
 
 
-const BlurImage = ({
+
+export const BlurImage = ({
+  height,
+  width,
   src,
+  className,
   alt,
-  ...props
+  ...rest
 }: ImageProps) => {
+  const [isLoading, setLoading] = useState(true);
   return (
     <Image
-      alt={alt}
+      className={cn(
+        "transition duration-300",
+        isLoading ? "blur-sm" : "blur-0",
+        className
+      )}
+      onLoad={() => setLoading(false)}
       src={src}
-      placeholder="blur"
-      {...props}
-      blurDataURL="/images/blur-placeholder.png"
+      width={width}
+      height={height}
+      loading="lazy"
+      decoding="async"
+      blurDataURL={typeof src === "string" ? src : undefined}
+      alt={alt ? alt : "Background of a beautiful view"}
+      {...rest}
     />
   );
 };

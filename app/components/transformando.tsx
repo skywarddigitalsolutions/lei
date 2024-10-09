@@ -2,7 +2,7 @@ import { VelocityScroll } from "./ui/scroll-based-velocity";
 
 export default function Transformando() {
     return(
-    <div className="pt-48 pb-24 bg-gris">
+    <div className="pt-12 pb-24 bg-gris">
         <VelocityScroll
         text="TRANSFORMANDO IDEAS"
         default_velocity={4}

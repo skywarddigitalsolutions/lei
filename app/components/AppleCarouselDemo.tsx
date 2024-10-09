@@ -30,31 +30,31 @@ const data = [
   {
     category: "Diseño",
     title: "Alteración mochila",
-    src: "/alteracion.jpeg",
+    src: "/alteracion.webp",
     url: "/Proyectos/Disenos", 
   },
   {
     category: "Producciones",
     title: "ZWARP",
-    src: "/zwarp.jpeg",
+    src: "/zwarp.webp",
     url: "/Proyectos/Producciones/ZWARP", 
   },
   {
     category: "Producciones",
     title: "Travis",
-    src: "/travis2.png",
+    src: "/travis2.webp",
     url: "/Proyectos/Producciones/Travis", 
   },
   {
     category: "Producciones",
     title: "Chiara",
-    src: "/chiara.png",
+    src: "/chiara.webp",
     url: "/Proyectos/Producciones/Chiara", 
   },
   {
     category: "Producciones",
     title: "Bastard",
-    src: "/bastard.png",
+    src: "/bastard.webp",
     url: "/Proyectos/Producciones/Bastard", 
   },
 ];

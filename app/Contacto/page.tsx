@@ -35,7 +35,7 @@ export default function Contacto() {
                 {/* Imagen izquierda */}
                 <div className="w-full md:w-1/3 lg:w-1/3 p-4 flex justify-center">
                     <Image
-                        src="/fotocontacto.jpg"
+                        src="/fotocontacto.webp"
                         alt="Foto de Proyecto 1"
                         width={400}
                         height={500}
@@ -73,7 +73,7 @@ export default function Contacto() {
 
                 <div className="w-full md:w-1/3 lg:w-1/3 p-4 flex justify-center">
                     <Image
-                        src="/fotocontacto2.jpg"
+                        src="/fotocontacto2.webp"
                         alt="Proyecto de moda 2"
                         width={400}
                         height={500}

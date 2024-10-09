@@ -5,7 +5,7 @@ export default function Sobremi() {
         <>
             <div className="py-24 flex flex-col lg:flex-row bg-gris px-4 lg:px-20 gap-12  justify-center">
                 <Image 
-                    src="/lei.jpg" 
+                    src="/lei.webp" 
                     alt="Leila" 
                     width={390} 
                     height={390} 

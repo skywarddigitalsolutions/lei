@@ -21,14 +21,14 @@ const productionOptions = [
 ];
 
 const images = [
-  { src: '/travis.png', alt: 'travis 1', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/travis2.png', alt: 'travis 2', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/travis3.png', alt: 'travis 3', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/travis4.png', alt: 'travis 4', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/travis5.png', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/travis6.png', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/travis7.png', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/travis8.png', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/travis.webp', alt: 'travis 1', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/travis2.webp', alt: 'travis 2', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/travis3.webp', alt: 'travis 3', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/travis4.webp', alt: 'travis 4', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/travis5.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/travis6.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/travis7.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/travis8.webp', alt: 'travis 5', className: 'md:col-span-2 md:row-span-3' },
 ];
 
 export default function Travis() {

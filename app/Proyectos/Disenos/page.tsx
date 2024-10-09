@@ -14,11 +14,11 @@ const projectOptions = [
 ];
 
 const images = [
-  { src: '/alteracion.jpeg', alt: 'Alteración 1', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/alteracion2.jpeg', alt: 'Alteración 2', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/alteracion3.jpeg', alt: 'Alteración 3', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/alteracion4.jpeg', alt: 'Alteración 4', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/alteracion5.jpeg', alt: 'Alteración 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/alteracion.webp', alt: 'Alteración 1', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/alteracion2.webp', alt: 'Alteración 2', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/alteracion3.webp', alt: 'Alteración 3', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/alteracion4.webp', alt: 'Alteración 4', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/alteracion5.webp', alt: 'Alteración 5', className: 'md:col-span-2 md:row-span-3' },
 ];
 
 export default function Disenos() {

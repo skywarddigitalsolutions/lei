@@ -21,12 +21,12 @@ const productionOptions = [
 ];
 
 const images = [
-  { src: '/chiara.png', alt: 'chiara 1', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/chiara2.jpg', alt: 'chiara 2', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/chiara3.png', alt: 'chiara 3', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/chiara4.jpg', alt: 'chiara 4', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/chiara5.jpg', alt: 'chiara 5', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/chiara6.jpg', alt: 'chiara 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/chiara.webp', alt: 'chiara 1', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/chiara2.webp', alt: 'chiara 2', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/chiara3.webp', alt: 'chiara 3', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/chiara4.webp', alt: 'chiara 4', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/chiara5.webp', alt: 'chiara 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/chiara6.webp', alt: 'chiara 5', className: 'md:col-span-2 md:row-span-3' },
 ];
 
 export default function Chiara() {

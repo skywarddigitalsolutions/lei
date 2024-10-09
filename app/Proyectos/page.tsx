@@ -7,17 +7,17 @@ const categories = [
   {
     id: 'Disenos',
     title: "Diseños",
-    imageUrl: "/alteracion.jpeg",
+    imageUrl: "/alteracion.webp",
   },
   {
     id: 'Producciones',
     title: "Producciones",
-    imageUrl: "/zwarp.jpeg",
+    imageUrl: "/zwarp.webp",
   },
   {
     id: 'Tendencias',
     title: "Detección de Tendencias",
-    imageUrl: "/fotoejemplo.jpg",
+    imageUrl: "/tendencia.webp",
   },
 ]
 

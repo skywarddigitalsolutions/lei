@@ -11,22 +11,22 @@ const categories = [
     {
       id: 'ZWARP',
       title: "ZWARP",
-      imageUrl: "/alteracion.jpeg",
+      imageUrl: "/alteracion.webp",
     },
     {
       id: 'Travis',
       title: "Travis",
-      imageUrl: "/travis.png",
+      imageUrl: "/travis.webp",
     },
     {
       id: 'Chiara',
       title: "Chiara",
-      imageUrl: "/chiara.png",
+      imageUrl: "/chiara.webp",
     },
     {
         id: 'Bastard',
         title: "Bastard",
-        imageUrl: "/bastard.png",
+        imageUrl: "/bastard.webp",
       },
   ]
   

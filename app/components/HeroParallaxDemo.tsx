@@ -10,64 +10,64 @@ export const products = [
     title: "Alteración de Mochila",
     link: "/Proyectos/Diseno",
     thumbnail:
-      "/alteracion.jpeg",
+      "/alteracion.webp",
   },
   {
     title: "Zwarp",
     link: "/Proyectos/Producciones/ZWARP",
     thumbnail:
-      "/zwarp.jpeg",
+      "/zwarp.webp",
   },
   {
     title: "Travis",
     link: "/Proyectos/Producciones/Travis",
     thumbnail:
-      "/travis.png",
+      "/travis.webp",
   },
 
   {
     title: "Bastard",
     link: "/Proyectos/Producciones/Bastard",
     thumbnail:
-      "/bastard.png",
+      "/bastard.webp",
   },
   {
     title: "Chiara",
     link: "/Proyectos/Producciones/Chiara",
     thumbnail:
-      "/chiara.png",
+      "/chiara.webp",
   },
 
   {
     title: "Alteración de Mochila",
     link: "/Proyectos/Diseno",
     thumbnail:
-      "/alteracion2.jpeg",
+      "/alteracion2.webp",
   },
   {
     title: "Zwarp",
     link: "/Proyectos/Producciones/ZWARP",
     thumbnail:
-      "/zwarp2.jpeg",
+      "/zwarp2.webp",
   },
   {
     title: "Travis",
     link: "/Proyectos/Producciones/Travis",
     thumbnail:
-      "/travis2.png",
+      "/travis2.webp",
   },
 
   {
     title: "Bastard",
     link: "/Proyectos/Producciones/Bastard",
     thumbnail:
-      "/bastard2.png",
+      "/bastard2.webp",
   },
   {
     title: "Chiara",
     link: "/Proyectos/Producciones/Chiara",
     thumbnail:
-      "/chiara2.png",
+      "/chiara2.webp",
   },
 
 
