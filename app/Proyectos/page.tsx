@@ -12,7 +12,7 @@ const categories = [
   {
     id: 'Producciones',
     title: "Producciones",
-    imageUrl: "/zwarp.webp",
+    imageUrl: "/zwap.webp",
   },
   {
     id: 'Tendencias',

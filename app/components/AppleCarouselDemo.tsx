@@ -35,9 +35,9 @@ const data = [
   },
   {
     category: "Producciones",
-    title: "ZWARP",
-    src: "/zwarp.webp",
-    url: "/Proyectos/Producciones/ZWARP", 
+    title: "ZWAP",
+    src: "/zwap.webp",
+    url: "/Proyectos/Producciones/ZWAP", 
   },
   {
     category: "Producciones",

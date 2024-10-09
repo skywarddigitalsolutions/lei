@@ -14,19 +14,19 @@ const projectOptions = [
 ];
 
 const productionOptions = [
-  { name: 'ZWARP', href: '/Proyectos/Producciones/ZWARP' },
+  { name: 'ZWAP', href: '/Proyectos/Producciones/ZWAP' },
   { name: 'Travis', href: '/Proyectos/Producciones/Travis' },
   { name: 'Chiara', href: '/Proyectos/Producciones/Chiara' },
   { name: 'Bastard', href: '/Proyectos/Producciones/Bastard' },
 ];
 
 const images = [
-  { src: '/zwarp.webp', alt: 'Zwarp 1', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/zwarp2.webp', alt: 'Zwarp 2', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/zwarp3.webp', alt: 'Zwarp 3', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/zwarp4.webp', alt: 'Zwarp 4', className: 'md:col-span-1 md:row-span-2' },
-  { src: '/zwarp5.webp', alt: 'Zwarp 5', className: 'md:col-span-2 md:row-span-3' },
-  { src: '/zwarp6.webp', alt: 'Zwarp 6', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/zwap.webp', alt: 'Zwarp 1', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/zwap2.webp', alt: 'Zwarp 2', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/zwap3.webp', alt: 'Zwarp 3', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/zwap4.webp', alt: 'Zwarp 4', className: 'md:col-span-1 md:row-span-2' },
+  { src: '/zwap5.webp', alt: 'Zwarp 5', className: 'md:col-span-2 md:row-span-3' },
+  { src: '/zwap6.webp', alt: 'Zwarp 6', className: 'md:col-span-2 md:row-span-3' },
 ];
 
 export default function Zwarp() {
@@ -91,7 +91,7 @@ export default function Zwarp() {
                   className="inline-flex items-center text-sm font-medium text-yellow-200 hover:text-yellow-50 focus:outline-none"
                   onClick={() => setIsProductionOpen(!isProductionOpen)}
                 >
-                  ZWARP
+                  ZWAP
                   <ChevronDownIcon className="w-5 h-5 ml-1" aria-hidden="true" />
                 </button>
                 {isProductionOpen && (
@@ -117,7 +117,7 @@ export default function Zwarp() {
       </nav>
 
       <div className='min-h-screen bg-gris py-24 px-4'>
-        <h4 className="text-5xl md:text-7xl lg:text-9xl font-bold text-left mb-2 lg:mb-4 text-yellow-200 tracking-wider break-words">ZWARP</h4>
+        <h4 className="text-5xl md:text-7xl lg:text-9xl font-bold text-left mb-2 lg:mb-4 text-yellow-200 tracking-wider break-words">ZWAP</h4>
         <h5 className='text-xl md:text-2xl lg:text-4xl text-yellow-200 mb-6 lg:mb-12'>Sustentable</h5>
         <p className='text-lg md:text-xl lg:text-xl text-grisclaro mb-12 lg:mb-40'>Plasmar la identidad de la marca desde la no contaminación, invitando a reutilizar la ropa </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:px-48">

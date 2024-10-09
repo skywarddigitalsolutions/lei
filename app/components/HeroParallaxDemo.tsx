@@ -14,9 +14,9 @@ export const products = [
   },
   {
     title: "Zwarp",
-    link: "/Proyectos/Producciones/ZWARP",
+    link: "/Proyectos/Producciones/ZWAP",
     thumbnail:
-      "/zwarp.webp",
+      "/zwap.webp",
   },
   {
     title: "Travis",
@@ -46,9 +46,9 @@ export const products = [
   },
   {
     title: "Zwarp",
-    link: "/Proyectos/Producciones/ZWARP",
+    link: "/Proyectos/Producciones/ZWAP",
     thumbnail:
-      "/zwarp2.webp",
+      "/zwap2.webp",
   },
   {
     title: "Travis",

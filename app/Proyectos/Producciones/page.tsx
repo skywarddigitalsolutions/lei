@@ -9,8 +9,8 @@ import Image from 'next/image';
 
 const categories = [
     {
-      id: 'ZWARP',
-      title: "ZWARP",
+      id: 'ZWAP',
+      title: "ZWAP",
       imageUrl: "/alteracion.webp",
     },
     {
