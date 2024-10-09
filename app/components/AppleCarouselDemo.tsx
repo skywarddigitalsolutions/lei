@@ -2,7 +2,6 @@
 import React from "react";
 import { Carousel, Card } from "./ui/apple-cards-carousel";
 import Link from "next/link";
-import ShimmerButton from "./ui/shimmer-button";
 
 export function AppleCardsCarouselDemo() {
   const cards = data.map((card, index) => (
