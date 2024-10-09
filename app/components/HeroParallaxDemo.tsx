@@ -14,7 +14,7 @@ export const products = [
   },
   {
     title: "Zwarp",
-    link: "/Proyectos/Producciones/Zwarp",
+    link: "/Proyectos/Producciones/ZWARP",
     thumbnail:
       "/zwarp.jpeg",
   },
@@ -46,7 +46,7 @@ export const products = [
   },
   {
     title: "Zwarp",
-    link: "/Proyectos/Producciones/Zwarp",
+    link: "/Proyectos/Producciones/ZWARP",
     thumbnail:
       "/zwarp2.jpeg",
   },
