@@ -36,7 +36,7 @@ export default function Contacto() {
                 <div className="w-full md:w-1/3 lg:w-1/3 p-4 flex justify-center">
                     <Image
                         src="/fotocontacto.jpg"
-                        alt="Foto de Proyecto"
+                        alt="Foto de Proyecto 1"
                         width={400}
                         height={500}
                         className="w-full h-auto rounded-lg shadow-lg object-cover"
