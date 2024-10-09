@@ -3,6 +3,7 @@ import { AppleCardsCarouselDemo } from "./components/AppleCarouselDemo";
 import Transformando from "./components/transformando";
 import { NavBar } from "./components/NavBar";
 import Footer from "./components/Footer";
+import Sobremi from "./components/Sobremi";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <HeroParallaxDemo/>
     <Transformando />
     <AppleCardsCarouselDemo />
+    <Sobremi />
     <Footer />
     </>
   );

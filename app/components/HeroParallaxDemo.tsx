@@ -7,73 +7,73 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "Alteración de Mochila",
+    link: "/Proyectos/Diseno",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "/alteracion.jpeg",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Zwarp",
+    link: "/Proyectos/Producciones/Zwarp",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/zwarp.jpeg",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Travis",
+    link: "/Proyectos/Producciones/Travis",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "/travis.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Bastard",
+    link: "/Proyectos/Producciones/Bastard",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/bastard.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: "Chiara",
+    link: "/Proyectos/Producciones/Chiara",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "/chiara.png",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "Alteración de Mochila",
+    link: "/Proyectos/Diseno",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "/alteracion2.jpeg",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "Zwarp",
+    link: "/Proyectos/Producciones/Zwarp",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "/zwarp2.jpeg",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Travis",
+    link: "/Proyectos/Producciones/Travis",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+      "/travis2.png",
   },
 
+  {
+    title: "Bastard",
+    link: "/Proyectos/Producciones/Bastard",
+    thumbnail:
+      "/bastard2.png",
+  },
+  {
+    title: "Chiara",
+    link: "/Proyectos/Producciones/Chiara",
+    thumbnail:
+      "/chiara2.png",
+  },
+
+
+  
+
+  
+  
   
 ];

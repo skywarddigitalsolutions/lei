@@ -58,7 +58,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] bg-gris py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[250vh] lg:h-[300vh] bg-gris pt-40 lg:pb-40 lg:pt-24 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -107,9 +107,7 @@ export const Header = () => {
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
         <FlipWordsDemo />
       <p className="max-w-2xl text-base md:text-xl mt-8 text-white">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+        Mi creativo donde plasmo mis proyectos y conceptos que reflejan la búsqueda de experiencias y nuevas sintaxis
       </p>
     </div>
   );

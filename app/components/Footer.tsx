@@ -1,17 +1,28 @@
 "use client"
 import { useState } from 'react';
-import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { SiTiktok } from "react-icons/si";
+import { FaBehance, FaWhatsapp } from "react-icons/fa";
 import { motion } from 'framer-motion';
+import { CiMail } from 'react-icons/ci';
 
 export default function Footer() {
   const [hoveredIcon, setHoveredIcon] = useState<string | null>(null);
 
   const socialLinks = [
-    { icon: FaFacebookF, href: "#", label: "Facebook" },
-    { icon: FaInstagram, href: "#", label: "Instagram" },
-    { icon: SiTiktok, href: "#", label: "TikTok" },
-    { icon: FaWhatsapp, href: "#", label: "WhatsApp" },
+    { 
+      icon: FaWhatsapp, 
+      href: "https://wa.me/541138717447?text=Hola%20Leila,%20trabajemos%20juntos", 
+      label: "WhatsApp" 
+    },
+    { 
+      icon: FaBehance, 
+      href: "https://www.behance.net/leilaabalos", 
+      label: "Behance" 
+    },
+    { 
+      icon: CiMail, 
+      href: "mailto:leilaabalos1@gmail.com", 
+      label: "Mail" 
+    },
   ];
 
   return (
@@ -42,6 +53,8 @@ export default function Footer() {
               onHoverEnd={() => setHoveredIcon(null)}
               whileHover={{ scale: 1.2 }}
               aria-label={social.label}
+              target="_blank" // Abre en una nueva pestaña
+              rel="noopener noreferrer" // Mejora la seguridad
             >
               <social.icon />
               {hoveredIcon === social.label && (

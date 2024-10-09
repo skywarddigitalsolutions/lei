@@ -13,8 +13,8 @@ export function NavBar() {
      
     },
     {
-      name: "Sobre mi",
-      link: "/Sobremi",
+      name: "Contacto",
+      link: "/Contacto",
     }
   ];
   return (
