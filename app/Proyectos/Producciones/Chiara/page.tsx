@@ -117,7 +117,7 @@ export default function Chiara() {
       </nav>
 
       <div className='min-h-screen bg-gris py-24 px-4'>
-        <h4 className="text-5xl md:text-7xl lg:text-9xl font-bold text-left mb-2 lg:mb-4 text-yellow-200 tracking-wider break-words">BELO</h4>
+        <h4 className="text-5xl md:text-7xl lg:text-9xl font-bold text-left mb-2 lg:mb-4 text-yellow-200 tracking-wider break-words">BELA</h4>
         <h5 className='text-xl md:text-2xl lg:text-4xl text-yellow-200 mb-6 lg:mb-12'>MARCA Bela, Modelo Chiara Parravicini | Armado de back y dirección de estilismo.</h5>
         <p className='text-lg md:text-xl lg:text-xl text-grisclaro mb-12 lg:mb-40'>Plasmar la identidad de la marca en diferentes propuestas de imagen y estilismo.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:px-48">
