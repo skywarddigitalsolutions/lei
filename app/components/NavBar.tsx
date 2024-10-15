@@ -5,7 +5,7 @@ export function NavBar() {
   const navItems = [
     {
       name: "Inicio",
-      link: "#",
+      link: "/",
     },
     {
       name: "Proyectos",
